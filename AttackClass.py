@@ -1,6 +1,12 @@
 import RollClass
 
-class my_class(object):
+class Attack(RollClass.Roll):
+
+    dSize = 20
+
+    def __init__(self, rollStr):
+        return super().__init__(rollStr)
+
     pass
 
 
